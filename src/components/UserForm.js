@@ -59,7 +59,7 @@ export class UserForm extends Component {
         return <h1>confirm</h1>;
 
       case 4:
-        return <h1>success</h1>;
+        return <h1>succe</h1>;
     }
   }
 }
