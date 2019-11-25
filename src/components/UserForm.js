@@ -54,7 +54,7 @@ export class UserForm extends Component {
           />
         );
       case 2:
-        return <h1>FormPersonalDeatils</h1>;
+        return <h1>FormPersonalDeatil</h1>;
       case 3:
         return <h1>confirm</h1>;
 
