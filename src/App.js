@@ -1,10 +1,10 @@
 import React from "react";
-import { UserForm } from "./components/UserForm";
+import SimpleTabs from "./components/SimpleTabs";
 
 function App() {
   return (
     <div className="App">
-      <UserForm />
+      <SimpleTabs />
     </div>
   );
 }
