@@ -71,6 +71,7 @@ export default function SimpleTabs() {
           onChange={handleChange}
           indicatorColor="primary"
           textColor="primary"
+          text-decoration="none"
           aria-label="simple tabs example"
           centered
         >
