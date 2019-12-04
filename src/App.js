@@ -1,5 +1,7 @@
 import React from "react";
-import SimpleTabs from "./components/SimpleTabs";
+// import SimpleTabs from "./components/SimpleTabs";
+import LoginTabs from "./components/LoginTabs";
+
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -9,7 +11,8 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          <SimpleTabs />
+          {/* <SimpleTabs /> */}
+          <LoginTabs />
           <Switch>
             <Route path="/signup">
               <SignUp />
