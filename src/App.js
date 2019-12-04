@@ -1,4 +1,5 @@
 import React from "react";
+import LoginTabs from "./components/LoginTabs";
 import SimpleTabs from "./components/SimpleTabs";
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          <SimpleTabs />
+          <LoginTabs />
           <Switch>
             <Route path="/signup">
               <SignUp />
